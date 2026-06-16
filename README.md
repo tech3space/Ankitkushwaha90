@@ -1,6 +1,6 @@
  
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:161B22,50:21262D,100:30363D&height=120&section=header&text=YOUR%20NAME&fontSize=38&fontColor=58A6FF&animation=fadeIn&fontAlignY=55" alt="Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:161B22,50:21262D,100:30363D&height=130&section=header&text=Your%20Name&fontSize=40&fontColor=58A6FF&animation=fadeIn&fontAlignY=58" alt="Header"/>
 </p>
 
 <p align="center">
@@ -10,33 +10,72 @@
   <a href="https://github.com/YOUR-USERNAME">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="https://leetcode.com/YOUR-LEETCODE">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  <a href="https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID">
+    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/>
   </a>
 </p>
 
 ---
 
 <div align="center">
-  <h3>Senior Software Engineer / Your Role @ Company</h3>
-  <p><strong>Building high-performance systems • Open Source Contributor • Passionate about Scalability & Acceleration</strong></p>
+  <h3>AI Researcher | Transformer Architectures & LLM Systems</h3>
+  <p><strong>Deep dives into foundational models • LLM Acceleration • Hardware-Aware AI Systems</strong></p>
 </div>
 
 ---
 
 | 👋 About Me |
 |-------------|
-| 🏢 **Your Current Role** @ **Your Company** <br>🎓 **Your Degree** — **University Name** <br>🌍 Based in **Location** <br>🔥 Currently working on **Main Tech / Project** <br>🤖 Building **Key Focus Area** (e.g. LLM acceleration, distributed systems, etc.) <br>⚡ Active contributor to **Open Source Projects** <br>🛠️ Built **Notable Project / Tool** <br>🌱 Passionate about **Performance Engineering** <br>💬 Ask me about **Your Expertise Areas** <br>⚡ Fun fact: *Something interesting about you* |
+| 🏢 **Your Role** @ **Your Organization** <br>🎓 **Your Degree** — **University** <br>🌍 Based in **Location** <br>🔥 Researching **Transformer architectures**, scaling laws, and efficient inference <br>🤖 Building **PyTorch OOT Device** backends for custom accelerators <br>⚡ Optimizing **LLM inference** & hardware-software co-design <br>🧠 Active contributor to **PyTorch, vLLM, Velox** ecosystem <br>🔬 Passionate about bridging **Transformers** with real-world acceleration <br>💬 Ask me about **Attention mechanisms, LLM optimization, FPGA acceleration** <br>⚡ Fun fact: From query engines to Transformer kernels — pushing silicon limits |
 
 ---
 
 ## 🛠️ Tech Arsenal
 
-**Languages & Frameworks:**  
-C++ • Python • Java • Scala • Rust • Go
+**Core Research Focus:**  
+**Transformers** • Self-Attention • Scaled Dot-Product Attention • Multi-Head Attention • Decoder-only & Encoder-Decoder Architectures • Long-Context Modeling • Scaling Laws
 
-**Specialized Domains:**  
-Big Data • Distributed Systems • LLM Inference & Acceleration • Query Engines • GPU/FPGA Programming • Performance Optimization • Apache Spark • Velox • Gluten • PyTorch • vLLM • Arrow • Parquet • Kubernetes
+**Implementation & Acceleration:**  
+PyTorch OOT Device — custom accelerator backend, device guard, aten ops, dispatcher  
+LLM Acceleration — inference optimization, kernel fusion, operator dispatch on custom HW  
+AI Agent Benchmarking — evaluating benchmark validity & designing rigorous evaluations  
+Velox internals — expression evaluation, vectorization, runtime optimization  
+FPGA-accelerated SQL — pushing query engines into hardware
+
+**Languages & Frameworks:**  
+C++ • Python • PyTorch • CUDA • Triton • vLLM • Apache Velox • FPGA (Xilinx/AMD) • SQL Engines
+
+---
+
+## 📖 Key Transformer Research Papers I Study & Build Upon
+
+**Foundational Papers Shaping Modern LLMs:**
+
+1. **Attention Is All You Need (2017)** — Vaswani et al.  
+   *The paper that started it all.* Introduced self-attention, removed recurrence, enabled massive parallelism.
+
+2. **BERT (2018)** — Devlin et al.  
+   Bidirectional Transformers for deep language understanding.
+
+3. **GPT (2018)** — Radford et al.  
+   Generative pre-training that led to the decoder-only revolution.
+
+4. **GPT-3 (2020)** — Brown et al.  
+   Scaling laws and emergent few-shot capabilities.
+
+5. **Transformer-XL (2019)** — Dai et al.  
+   Beyond fixed-length context with segment recurrence.
+
+6. **T5 (2020)** — Raffel et al.  
+   Unified text-to-text framework.
+
+7. **ViT (2020)** — Dosovitskiy et al.  
+   Transformers for vision — image patches as tokens.
+
+8. **FlashAttention (2022)** — Dao et al.  
+   IO-aware exact attention for faster & longer-context training.
+
+**Must-read order for researchers:** Attention Is All You Need → BERT → GPT → GPT-3 → FlashAttention.
 
 ---
 
@@ -47,45 +86,39 @@ Big Data • Distributed Systems • LLM Inference & Acceleration • Query Engi
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="165"/>
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR-USERNAME&theme=github-dark-blue&hide_border=true&ring=58a6ff&fire=ff7c3f" height="165"/>
-</p>
-
 ---
 
 ## 🌱 Currently Exploring
 
 ```
-▶  Area 1 — Short description of what you're learning/building
-▶  Area 2 — Another focus area
-▶  Area 3 — Third area
+▶  PyTorch OOT Device     — custom accelerator backend, device guard, aten ops, dispatcher
+▶  LLM Acceleration       — inference optimization, kernel fusion, operator dispatch on custom HW
+▶  AI Agent Benchmarking  — evaluating benchmark validity & designing rigorous evaluations
+▶  Velox internals        — expression evaluation, vectorization, runtime optimization
+▶  FPGA-accelerated SQL   — pushing query engines into hardware
 ```
 
 ---
 
 ## 🌍 Open Source Contributions
 
-Active contributor to major open-source projects in **Big Data, AI Infrastructure & Performance Engineering**.
+Active contributor in **Transformers ecosystem**, **LLM inference**, and **hardware acceleration** projects.
 
 > ✅ Merged · 🔄 Open · ❌ Closed
 
-### Project Name 1
-| PR | Description | Status |
-|----|-------------|--------|
-| [#xxx](link) | Short description of the PR | ✅ Merged |
-
-*(Add more tables for other projects like brijrajk has for PyTorch, vLLM, Gluten, Velox, Spark, etc.)*
+*(Add your actual PR tables here similar to brijrajk’s style — PyTorch, vLLM, Velox, etc.)*
 
 ---
 
 ## 📌 Featured Work
 
-Most of my production impact lives in private repositories.  
-The best reflection of my work is through the **Open Source Contributions** above.
+Most production/research impact lives in private repos or paper implementations.  
+Open-source contributions above best reflect my hands-on work on **Transformer acceleration** and systems.
 
-**Pinned Repositories / Forks I actively maintain:**
-- [Project 1](link) — Description
-- [Project 2](link) — Description
+**Pinned / Actively Maintained Forks:**
+- [pytorch/pytorch](link) — OOT device backend development
+- [vllm-project/vllm](link) — High-throughput LLM serving
+- [facebookincubator/velox](link) — Vectorized execution for AI pipelines
 
 ---
 
@@ -97,13 +130,13 @@ The best reflection of my work is through the **Open Source Contributions** abov
   </a>
 </p>
 
-*Open to discussions on performance engineering, distributed systems, LLM infrastructure, and open-source collaboration.*
+*Open to collaborations on Transformer research, LLM optimization, hardware co-design, and open-source acceleration projects.*
 
 ---
 
-> **"Your favorite motivational or technical quote here."**
+> **"From the original self-attention to custom silicon — every Transformer kernel is an opportunity to go faster."**
 
 ---
 
-**Made with ❤️ for the open-source community**
-  
+**Made with ❤️ for the AI Research & Open Source Community**
+ 
